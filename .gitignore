@@ -1,6 +1,5 @@
 guide-pt1.md
-demo/
 cv-project-pathA-20day-audit-1.md
 guide.md
-.vscode
-.venv/
+.vscode/*
+.venv/*
