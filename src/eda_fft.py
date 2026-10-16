@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
+from MODEL_INPUT_SIZE, CLASS_NAMES, SEED
 
 def compute_avg_spectrum(manifest_csv,class_name,n):
     df = pd.read_csv(manifest_csv)

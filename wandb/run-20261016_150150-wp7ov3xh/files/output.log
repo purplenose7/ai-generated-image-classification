@@ -1,0 +1,17 @@
+using device: cuda
+Downloading: "https://download.pytorch.org/models/resnet50-0676ba61.pth" to /root/.cache/torch/hub/checkpoints/resnet50-0676ba61.pth
+100%|██████████| 97.8M/97.8M [00:00<00:00, 205MB/s]
+trainable params: 6,147
+total params: 23,514,179
+Loss exploded at iteration 165, stopping early.
+Saved to figures/lr_range_test.png
+Overwriting /kaggle/working/ai-generated-image-classification/src/eda_fft.py
+Overwriting /kaggle/working/ai-generated-image-classification/src/eda_fft.py
+Saved to /kaggle/working/ai-generated-image-classification/figures/samples.png
+Saved to /kaggle/working/ai-generated-image-classification/figures/samples.png
+Saved to /kaggle/working/ai-generated-image-classification/figures/samples.png
+computed spectrum for real
+computed spectrum for gan
+computed spectrum for diffusion
+Saved to /kaggle/working/ai-generated-image-classification/figures/fft_spectra.png
+Overwriting /kaggle/working/ai-generated-image-classification/src/engine.py
