@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 from src.metrics import *
+from config.settings import *
 
 class ForensicsTrainer:
     def __init__(self,model,optimizer,scheduler,loss_fn, device, ckpt_path, wandb_run):
@@ -28,7 +29,6 @@ class ForensicsTrainer:
             loss = self.loss_fn(outputs,labels)
             loss.backward()
             self.optimizer.step()
-            self.scheduler.step()
             running_loss += loss.item()
             batch+=1
             
@@ -67,8 +67,9 @@ class ForensicsTrainer:
                                 'train_loss': train_loss,
                                 'val_loss': val_metrics['loss'],
                                 'val_accuracy': val_metrics['accuracy'],
-                                **{f"f1_{k}": v for k, v in val_metrics['per class f1'].items()}})
+                                **{f"f1_{k}": v for k, v in dict(val_metrics['per class f1']).items()}})
             
+            self.scheduler.step()
             if val_metrics['loss']<self.best_val_loss:
                 self.best_val_loss=val_metrics['loss']
                 self.epochs_without_improvement=0

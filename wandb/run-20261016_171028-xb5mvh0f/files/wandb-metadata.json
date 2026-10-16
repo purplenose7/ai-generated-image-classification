@@ -1,0 +1,46 @@
+{
+  "os":  "Linux-6.18.48+-x86_64-with-glibc2.39",
+  "python":  "CPython 3.13.15",
+  "startedAt":  "2026-10-16T17:10:28.619614Z",
+  "program":  "kaggle.ipynb",
+  "codePath":  "kaggle.ipynb",
+  "git":  {
+    "remote":  "https://purplenose7:@github.com/purplenose7/ai-generated-image-classification.git",
+    "commit":  "c2ba0f5ca2850c865bd6d0754d5ffd7baa7f5196"
+  },
+  "email":  "navya.lakhotia16@gmail.com",
+  "root":  "/kaggle/working/ai-generated-image-classification",
+  "host":  "62f97083494f",
+  "executable":  "/usr/bin/python3",
+  "cpu_count":  2,
+  "cpu_count_logical":  4,
+  "gpu":  "Tesla T4",
+  "gpu_count":  2,
+  "disk":  {
+    "/":  {
+      "total":  "8758385086464",
+      "used":  "7609587343360"
+    }
+  },
+  "memory":  {
+    "total":  "33658318848"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-9358b45b-b06d-23ff-32b0-c6de51fbea1d"
+    },
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-dc0e36c1-3af8-2023-6c7b-5c2e51f0dc43"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "rgc3e46tb20bzx28p8z3mved2my13zfe"
+}
