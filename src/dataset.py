@@ -2,7 +2,7 @@ from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
 from PIL import Image
 import pandas as pd
-from config.settings import MODEL_INPUT_SIZE
+from config.settings import MODEL_INPUT_SIZE, MANIFEST_DIR
 
 IMAGENET_MEAN = [0.485, 0.456, 0.406]
 IMAGENET_STD  = [0.229, 0.224, 0.225]

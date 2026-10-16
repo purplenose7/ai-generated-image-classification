@@ -1,0 +1,32 @@
+2026-10-16 10:41:29,681 INFO    MainThread:48 [wandb_setup.py:_flush():81] Current SDK version is 0.28.1
+2026-10-16 10:41:29,681 INFO    MainThread:48 [wandb_setup.py:_flush():81] Configure stats pid to 48
+2026-10-16 10:41:29,681 INFO    MainThread:48 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-10-16 10:41:29,681 INFO    MainThread:48 [wandb_init.py:setup_run_log_directory():729] Logging user logs to /kaggle/working/ai-generated-image-classification/wandb/run-20261016_104129-sfdhq3zo/logs/debug.log
+2026-10-16 10:41:29,681 INFO    MainThread:48 [wandb_init.py:setup_run_log_directory():730] Logging internal logs to /kaggle/working/ai-generated-image-classification/wandb/run-20261016_104129-sfdhq3zo/logs/debug-internal.log
+2026-10-16 10:41:29,681 INFO    MainThread:48 [wandb_init.py:monkeypatch_ipython():648] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7e9fec4e12b0>
+2026-10-16 10:41:29,682 INFO    MainThread:48 [wandb_init.py:init():772] calling init triggers
+2026-10-16 10:41:29,682 INFO    MainThread:48 [wandb_init.py:init():777] wandb.init called with sweep_config: {}
+config: {'model': 'resnet50', 'mode': 'feature_extraction', 'batch_size': 32, 'seed': 77, '_wandb': {}}
+2026-10-16 10:41:29,682 INFO    MainThread:48 [wandb_init.py:init():820] starting backend
+2026-10-16 10:41:29,682 INFO    MainThread:48 [wandb_init.py:init():835] sending inform_init request
+2026-10-16 10:41:29,900 INFO    MainThread:48 [wandb_init.py:init():840] backend started and connected
+2026-10-16 10:41:29,907 INFO    MainThread:48 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2026-10-16 10:41:35,207 INFO    MainThread:48 [wandb_init.py:init():910] updated telemetry
+2026-10-16 10:41:35,215 INFO    MainThread:48 [wandb_init.py:init():933] communicating run to backend with 90.0 second timeout
+2026-10-16 10:41:35,708 INFO    MainThread:48 [wandb_init.py:init():978] starting run threads in backend
+2026-10-16 10:41:37,275 INFO    MainThread:48 [wandb_run.py:_console_start():2621] atexit reg
+2026-10-16 10:41:37,275 INFO    MainThread:48 [wandb_run.py:_redirect():2471] redirect: wrap_raw
+2026-10-16 10:41:37,275 INFO    MainThread:48 [wandb_run.py:_redirect():2540] Wrapping output streams.
+2026-10-16 10:41:37,275 INFO    MainThread:48 [wandb_run.py:_redirect():2563] Redirects installed.
+2026-10-16 10:41:37,284 INFO    MainThread:48 [wandb_init.py:init():1016] run started, returning control to user process
+2026-10-16 10:41:37,284 INFO    MainThread:48 [wandb_init.py:_post_run_cell_hook():618] [no run ID] resuming backend
+2026-10-16 10:44:40,816 INFO    MainThread:48 [jupyter.py:save_ipynb():362] [no run ID] not saving jupyter notebook
+2026-10-16 10:44:40,817 INFO    MainThread:48 [wandb_init.py:_pre_run_cell_hook():607] [no run ID] pausing backend
+2026-10-16 10:44:40,905 INFO    MainThread:48 [wandb_run.py:_finish():2383] finishing run navya-lakhotia-manipal/ai-image-forensics/sfdhq3zo
+2026-10-16 10:44:40,906 INFO    MainThread:48 [jupyter.py:save_history():435] not saving jupyter history
+2026-10-16 10:44:40,906 INFO    MainThread:48 [jupyter.py:save_ipynb():362] not saving jupyter notebook
+2026-10-16 10:44:40,906 INFO    MainThread:48 [wandb_init.py:_jupyter_teardown():633] cleaning up jupyter logic
+2026-10-16 10:44:40,906 INFO    MainThread:48 [wandb_run.py:_atexit_cleanup():2588] got exitcode: 0
+2026-10-16 10:44:40,906 INFO    MainThread:48 [wandb_run.py:_restore():2570] restore
+2026-10-16 10:44:40,906 INFO    MainThread:48 [wandb_run.py:_restore():2576] restore done
+2026-10-16 10:44:41,446 INFO    MainThread:48 [wandb_run.py:_footer_sync_info():3993] logging synced files

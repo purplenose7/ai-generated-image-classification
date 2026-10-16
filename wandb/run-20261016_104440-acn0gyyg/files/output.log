@@ -1,0 +1,5 @@
+Overwriting /kaggle/working/ai-generated-image-classification/src/dataset.py
+Overwriting /kaggle/working/ai-generated-image-classification/config/settings.py
+Loss exploded at iteration 160, stopping early.
+Loss exploded at iteration 152, stopping early.
+Saved to figures/lr_range_test.png
