@@ -1,0 +1,37 @@
+using device: cuda
+Downloading: "https://download.pytorch.org/models/resnet50-0676ba61.pth" to /root/.cache/torch/hub/checkpoints/resnet50-0676ba61.pth
+100%|██████████| 97.8M/97.8M [00:00<00:00, 207MB/s] 
+trainable params: 6,147
+total params: 23,514,179
+Overwriting /kaggle/working/ai-generated-image-classification/src/engine.py
+epoch number: 1	Train Loss: 0.6896639865456206	Validation Loss: 0.4649951408306758	Validation Accuracy: 0.8182222222222222	Learning Rate: 0.0050
+epoch number: 2	Train Loss: 0.39524452415379613	Validation Loss: 0.45243239319986767	Validation Accuracy: 0.8164444444444444	Learning Rate: 0.0049
+epoch number: 1	Train Loss: 0.3666735100926775	Validation Loss: 0.3160574610034625	Validation Accuracy: 0.8782222222222222	Learning Rate: 0.0050
+epoch number: 2	Train Loss: 0.3050934384718086	Validation Loss: 0.27518933825194836	Validation Accuracy: 0.8995555555555556	Learning Rate: 0.0049
+epoch number: 3	Train Loss: 0.27759967735319424	Validation Loss: 0.45222674310207367	Validation Accuracy: 0.8417777777777777	Learning Rate: 0.0047
+epoch number: 4	Train Loss: 0.3297418204672409	Validation Loss: 0.4735477301809523	Validation Accuracy: 0.8324444444444444	Learning Rate: 0.0045
+epoch number: 5	Train Loss: 0.2815662391709559	Validation Loss: 0.18413860361195272	Validation Accuracy: 0.9355555555555556	Learning Rate: 0.0043
+epoch number: 6	Train Loss: 0.2296927560911034	Validation Loss: 0.20156126841902733	Validation Accuracy: 0.9293333333333333	Learning Rate: 0.0040
+epoch number: 7	Train Loss: 0.21077427435101884	Validation Loss: 0.2831465107285314	Validation Accuracy: 0.8991111111111111	Learning Rate: 0.0036
+epoch number: 8	Train Loss: 0.20647196051749317	Validation Loss: 0.18902980546570486	Validation Accuracy: 0.9297777777777778	Learning Rate: 0.0033
+epoch number: 9	Train Loss: 0.1977814757688479	Validation Loss: 0.2025066895617379	Validation Accuracy: 0.9302222222222222	Learning Rate: 0.0029
+epoch number: 10	Train Loss: 0.19675020627451664	Validation Loss: 0.20246627067940104	Validation Accuracy: 0.9297777777777778	Learning Rate: 0.0025
+epoch number: 11	Train Loss: 0.19457932902556477	Validation Loss: 0.14694124129083422	Validation Accuracy: 0.9466666666666667	Learning Rate: 0.0021
+epoch number: 12	Train Loss: 0.15740237581458957	Validation Loss: 0.1868452232124077	Validation Accuracy: 0.9311111111111111	Learning Rate: 0.0017
+epoch number: 13	Train Loss: 0.15714811779784435	Validation Loss: 0.1357355494466093	Validation Accuracy: 0.9524444444444444	Learning Rate: 0.0014
+epoch number: 14	Train Loss: 0.1543396086855368	Validation Loss: 0.14257137798186806	Validation Accuracy: 0.9475555555555556	Learning Rate: 0.0010
+epoch number: 15	Train Loss: 0.14010912349278276	Validation Loss: 0.13593086258818707	Validation Accuracy: 0.952	Learning Rate: 0.0007
+epoch number: 16	Train Loss: 0.1347198974905592	Validation Loss: 0.14430241441975036	Validation Accuracy: 0.9453333333333334	Learning Rate: 0.0005
+epoch number: 17	Train Loss: 0.13373846235600384	Validation Loss: 0.16151565158118805	Validation Accuracy: 0.9408888888888889	Learning Rate: 0.0003
+epoch number: 18	Train Loss: 0.12903636594613394	Validation Loss: 0.1403600891224212	Validation Accuracy: 0.948	Learning Rate: 0.0001
+epoch number: 19	Train Loss: 0.12629272165623578	Validation Loss: 0.13150051587985623	Validation Accuracy: 0.9511111111111111	Learning Rate: 0.0000
+epoch number: 20	Train Loss: 0.12306179458444769	Validation Loss: 0.1342294324810306	Validation Accuracy: 0.9524444444444444	Learning Rate: 0.0000
+epoch number: 21	Train Loss: 0.11941554352189555	Validation Loss: 0.13597808457497093	Validation Accuracy: 0.9502222222222222	Learning Rate: 0.0000
+epoch number: 22	Train Loss: 0.12016512035871997	Validation Loss: 0.13442963278955883	Validation Accuracy: 0.9484444444444444	Learning Rate: 0.0001
+epoch number: 23	Train Loss: 0.12404185544812318	Validation Loss: 0.13543435900161663	Validation Accuracy: 0.9506666666666667	Learning Rate: 0.0003
+epoch number: 24	Train Loss: 0.1285833106573784	Validation Loss: 0.1427067887658874	Validation Accuracy: 0.9493333333333334	Learning Rate: 0.0005
+epoch number: 25	Train Loss: 0.13037785402301585	Validation Loss: 0.1374640152272251	Validation Accuracy: 0.9533333333333334	Learning Rate: 0.0007
+epoch number: 26	Train Loss: 0.14211563307679062	Validation Loss: 0.13705450534406635	Validation Accuracy: 0.9493333333333334	Learning Rate: 0.0010
+Epochs without improvement(7) greater than patience(7). Stopping early.
+Best val loss: 0.1315
+Best val accuracy: 0.9511
