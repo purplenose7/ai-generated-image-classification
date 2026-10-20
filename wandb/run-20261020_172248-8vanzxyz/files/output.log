@@ -1,0 +1,66 @@
+using device: cuda
+Downloading: "https://download.pytorch.org/models/resnet50-0676ba61.pth" to /root/.cache/torch/hub/checkpoints/resnet50-0676ba61.pth
+100%|██████████| 97.8M/97.8M [00:00<00:00, 211MB/s]
+trainable params: 6,147
+total params: 23,514,179
+Overwriting /kaggle/working/ai-generated-image-classification/src/engine.py
+Test accuracy: 0.9458
+Per-class F1: <zip object at 0x78777672fcc0>
+Confusion matrix:
+[[694  14  42]
+ [  8 739   3]
+ [ 52   3 695]]
+Test accuracy: 0.9458
+real 0.9228723404255319
+gan 0.9814077025232404
+diffusion 0.9328859060402684
+Confusion matrix:
+[[694  14  42]
+ [  8 739   3]
+ [ 52   3 695]]
+Test accuracy: 0.9458
+Confusion matrix:
+[[694  14  42]
+ [  8 739   3]
+ [ 52   3 695]]
+Test accuracy: 0.9458
+Confusion matrix:
+[[694  14  42]
+ [  8 739   3]
+ [ 52   3 695]]
+Test accuracy: 0.9458
+Confusion matrix:
+[[694  14  42]
+ [  8 739   3]
+ [ 52   3 695]]
+Test accuracy: 0.9458
+Per class F1:
+Confusion matrix:
+[[694  14  42]
+ [  8 739   3]
+ [ 52   3 695]]
+Test accuracy: 0.9458
+Per class F1:
+Confusion matrix:
+[[694  14  42]
+ [  8 739   3]
+ [ 52   3 695]]
+Test accuracy: 0.9458
+Per class F1:
+		real: 0.9228723404255319
+		gan: 0.9814077025232404
+		diffusion: 0.9328859060402684
+Confusion matrix:
+[[694  14  42]
+ [  8 739   3]
+ [ 52   3 695]]
+Test accuracy: 0.9458
+Per class F1:
+	real: 0.9228723404255319
+	gan: 0.9814077025232404
+	diffusion: 0.9328859060402684
+Confusion matrix:
+[[694  14  42]
+ [  8 739   3]
+ [ 52   3 695]]
+Overwriting /kaggle/working/ai-generated-image-classification/src/metrics.py

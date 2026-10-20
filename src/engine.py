@@ -96,7 +96,7 @@ class ForensicsTrainer:
                     self.ckpt_path)
 
     def load_checkpoint(self, ckpt_path):
-        checkpoint = torch.load(ckpt_path, map_location=self.device)
+        checkpoint = torch.load(ckpt_path, map_location=self.device, weights_only=False)
         self.best_val_loss = checkpoint['best_val_loss']
         self.model.load_state_dict(checkpoint['model_state_dict'])
         self.optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
